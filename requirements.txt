@@ -1,7 +1,7 @@
 streamlit
-easyocr
+numpy
 opencv-python-headless==4.8.1.78
---extra-index-url https://download.opencv.org/releases/python/stack/
+ultralytics>=8.0.0
+easyocr
 paddlepaddle
 paddleocr
-ultralytics

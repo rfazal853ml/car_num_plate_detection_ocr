@@ -1,10 +1,4 @@
 import streamlit as st
-# Force uninstall any desktop OpenCV
-import sys
-import subprocess
-
-subprocess.check_call([sys.executable, "-m", "pip", "uninstall", "-y", "opencv-python", "opencv-contrib-python"])
-subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python-headless==4.8.1.78"])
 import cv2
 import numpy as np
 from ultralytics import YOLO

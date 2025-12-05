@@ -1,6 +1,7 @@
 streamlit
 easyocr
-opencv-python-headless
+opencv-python-headless==4.8.1.78
+--extra-index-url https://download.opencv.org/releases/python/stack/
 paddlepaddle
 paddleocr
 ultralytics

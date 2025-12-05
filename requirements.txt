@@ -1,7 +1,14 @@
-streamlit
+# Core
+streamlit==1.52.0
 numpy
+
+# OpenCV headless (no GUI dependencies)
 opencv-python-headless==4.8.1.78
+
+# Object detection
 ultralytics>=8.0.0
+
+# OCR
 easyocr
 paddlepaddle
 paddleocr

@@ -1,0 +1,6 @@
+streamlit
+easyocr
+opencv-python
+paddlepaddle
+paddleocr
+ultralytics

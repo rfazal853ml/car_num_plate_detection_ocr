@@ -1,6 +1,6 @@
-streamlit==1.52.0
-numpy
+numpy<2
 opencv-python-headless==4.8.1.78
+streamlit==1.52.0
 ultralytics>=8.0.0,<8.5.0
 easyocr
 paddlepaddle
